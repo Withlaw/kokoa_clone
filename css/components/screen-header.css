@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: var(--horizontal-space);
+  /* 크기 변수지정은 6.17강의에 있음 */
   margin-top: 26px;
 }
 .screen-header__title {
