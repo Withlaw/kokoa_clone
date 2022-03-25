@@ -1,0 +1,8 @@
+.no-recommended-friends {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.3);
+}

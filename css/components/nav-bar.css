@@ -37,3 +37,13 @@
   left: 30px;
   bottom: 27px;
 }
+.nav__search--solid {
+  background-color: #2e363e;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 2px;
+  top: -9px;
+}
