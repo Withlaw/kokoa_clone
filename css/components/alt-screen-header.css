@@ -14,5 +14,10 @@
   width: 33%;
 }
 .alt-header__column:last-child {
-  text-align: end;
+  text-align: right;
+  /* display: flex;
+  justify-content: end; */
+}
+.alt-header__column:last-child i:last-child {
+  margin-left: 20px;
 }
