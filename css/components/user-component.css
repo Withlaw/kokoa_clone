@@ -5,6 +5,7 @@
 }
 .user-component {
   justify-content: space-between;
+  margin-top: 20px;
 }
 .user-component__photo {
   width: 70px;

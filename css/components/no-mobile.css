@@ -4,13 +4,13 @@
   z-index: 99;
   width: 100vw;
   height: 100vh;
-  background-color: gold;
+  background: linear-gradient(#f3e2d4, #eef6f8, #e0d1c4);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 32px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 510px) {
   #no-mobile {
     display: none;
   }

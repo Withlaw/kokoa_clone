@@ -28,6 +28,18 @@
   left: 69px;
   top: -8px;
 }
+.screen-header__setting {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -7px;
+  right: -3px;
+}
 @keyframes rotateCog {
   from {
     transform: none;

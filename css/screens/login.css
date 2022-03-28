@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 90px 0px;
+  margin: 200px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   font-size: 25px;
 }
 .welcome-header__text {
-  width: 55%;
+  width: 70%;
   opacity: 0.3;
 }
 #login-form {
@@ -33,13 +33,13 @@
   color: rgba(0, 0, 0, 0.3);
 }
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: #eed2bc;
 }
 #login-form input:focus::placeholder {
   color: transparent;
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #eed2bc;
   border-radius: 7px;
   cursor: pointer;
   padding: 20px 0px;

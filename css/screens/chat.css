@@ -167,8 +167,8 @@
   animation: leftShot 1s linear;
 }
 .message-animation_r {
-  transform: translateX(200px);
-  animation: rightShot 1s 1s linear forwards;
+  transform: translateX(300px);
+  animation: rightShot 1s 1.5s linear forwards;
 }
 .reply .reply__column:first-child,
 .reply .reply__btn {
