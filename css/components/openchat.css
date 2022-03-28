@@ -68,7 +68,24 @@
 .open-chat__heart-counts i {
   margin-right: 5px;
 }
-
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(3);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-chat__heart-counts:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
 .open-chat-divide {
   width: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
